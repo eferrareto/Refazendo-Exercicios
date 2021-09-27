@@ -1,3 +1,25 @@
+body{
+    font-family: Arial, Helvetica, sans-serif;
+    background-color: rgba(124, 219, 187, 0.733);
+}
+h1{
+    color: rgba(5, 116, 79, 0.904);
+    text-align: center;
+}
+p{
+    text-align: left;
+}
+input{
+    width: 300px;
+    background-color: rgba(163, 207, 193, 0.904);
+    border-radius: 5px;
+}
 button{
+    background-color: rgba(5, 116, 79, 0.377);
+    border-radius: 5px;
     cursor: pointer;
+}
+button:hover{
+    background-color: transparent;
+    box-shadow: 1px 1px 1px rgba(5, 116, 79, 0.904);
 }
